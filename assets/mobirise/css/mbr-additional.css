@@ -733,6 +733,12 @@ h6,
 #extFeatures10-e .etl-icon {
   color: #333333;
 }
+#extFeatures10-e .etl-icon {
+  color: #333333;
+}
 #extFeatures10-e .separline::before {
   background-color: #000;
+}
+#form1-i .form-control-label {
+  color: #232323;
 }

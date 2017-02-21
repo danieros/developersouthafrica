@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.11",
-    "uniqCompNum": 16,
+    "uniqCompNum": 19,
     "versionPublish": "3.12.1",
     "path": "@PROJECT_PATH@"
   },
@@ -43,19 +43,18 @@
             "Theme"
           ],
           "_name": "ext.menu",
-          "_anchor": "ext_menu-0",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#000000",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": false
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -73,13 +72,14 @@
           },
           "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">DeveloperSouthafrica</a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OVERVIEW</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">ABOUT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info\" href=\"https://mobirise.com/\">Quotation</a></li>",
-          "_customHTML": "<section>\n\n    <nav class=\"navbar navbar-dropdown navbar-fixed-top\">\n        <div class=\"container\">\n\n            <div class=\"mbr-table\">\n                <div class=\"mbr-table-cell\">\n\n                    <div class=\"navbar-brand\">\n                        <a href=\"https://mobirise.com\" class=\"navbar-logo\"><img src=\"@THEME_PATH@/components/_images/logo.png\" alt=\"Mobirise\"></a>\n                        <a class=\"navbar-caption text-white\" href=\"https://mobirise.com\">DeveloperSouthafrica</a>\n                    </div>\n\n                </div>\n                <div class=\"mbr-table-cell\">\n\n                    <button class=\"navbar-toggler pull-xs-right hidden-md-up\" type=\"button\" data-toggle=\"collapse\" data-target=\"#exCollapsingNavbar\">\n                        <div class=\"hamburger-icon\"></div>\n                    </button>\n\n                    <ul class=\"nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-sm\" id=\"exCollapsingNavbar\"><li class=\"nav-item\"><a class=\"nav-link link mbr-editable-menu-item\" href=\"https://mobirise.com/\" code-editable-id=\"1020\">OVERVIEW</a></li><li class=\"nav-item\"><a class=\"nav-link link mbr-editable-menu-item\" href=\"https://mobirise.com/\" code-editable-id=\"1021\">ABOUT US</a></li>\n                        \n                        <li class=\"nav-item nav-btn\">\n                            \n\n                           {JS_CODE_0} <a class=\"btn lightbox-70468024755560\" style=\"margin-top: 16px\"> Website Design Request Form </a>  \n                            \n                        \n                        </li></ul>\n                    <button hidden=\"\" class=\"navbar-toggler navbar-close\" type=\"button\" data-toggle=\"collapse\" data-target=\"#exCollapsingNavbar\">\n                        <div class=\"close-icon\"></div>\n                    </button>\n\n                </div>\n            </div>\n\n        </div>\n    </nav>\n\n</section>",
+          "_customHTML": "<section>\n\n    <nav class=\"navbar navbar-dropdown navbar-fixed-top\">\n        <div class=\"container\">\n\n            <div class=\"mbr-table\">\n                <div class=\"mbr-table-cell\">\n\n                    <div class=\"navbar-brand\">\n                        <a href=\"https://mobirise.com\" class=\"navbar-logo\"><img src=\"@THEME_PATH@/components/_images/logo.png\" alt=\"Mobirise\"></a>\n                        <a class=\"navbar-caption text-white\" href=\"https://mobirise.com\">DeveloperSouthafrica</a>\n                    </div>\n\n                </div>\n                <div class=\"mbr-table-cell\">\n\n                    <button class=\"navbar-toggler pull-xs-right hidden-md-up\" type=\"button\" data-toggle=\"collapse\" data-target=\"#exCollapsingNavbar\">\n                        <div class=\"hamburger-icon\"></div>\n                    </button>\n\n                    <ul class=\"nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-sm\" id=\"exCollapsingNavbar\"><li class=\"nav-item\"><a class=\"nav-link link mbr-editable-menu-item\" href=\"https://mobirise.com/\" code-editable-id=\"15\">OVERVIEW</a></li><li class=\"nav-item\"><a class=\"nav-link link mbr-editable-menu-item\" href=\"index.html#header1-g\" code-editable-id=\"16\">ABOUT US</a></li>\n                        \n                        <li class=\"nav-item nav-btn\">\n                            \n\n                           {JS_CODE_0} <a class=\"btn lightbox-70468024755560\" style=\"margin-top: 16px\"> Website Design Request Form </a>  \n                            \n                        \n                        </li></ul>\n                    <button hidden=\"\" class=\"navbar-toggler navbar-close\" type=\"button\" data-toggle=\"collapse\" data-target=\"#exCollapsingNavbar\">\n                        <div class=\"close-icon\"></div>\n                    </button>\n\n                </div>\n            </div>\n\n        </div>\n    </nav>\n\n</section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [
-            "<script src=\"https://form.myjotform.com/static/feedback2.js?3.3.REV\" type=\"text/javascript\"> var JFL_70468024755560 = new JotformFeedback({ formId: '70468024755560', base: 'https://form.myjotform.com/', windowTitle: 'Website Design Request Form', background: '#FFA500', fontColor: '#FFFFFF', type: 'false', height: 500, width: 700, openOnLoad: false }); </script>"
+            "<script src=\"https://form.myjotform.com/static/feedback2.js?3.3.REV\" type=\"text/javascript\"> var JFL_70468024755560 = new JotformFeedback({ formId: '70468024755560', base: 'https://form.myjotform.com/', windowTitle: 'Website Design Request Form', background: '#FFA500', fontColor: '#FFFFFF', type: 'false', height: 200, width: 200, openOnLoad: false }); </script>"
           ],
           "_customCSS": ".hide-buttons .nav-btn {\n\tdisplay: none !important;\n}\n.navbar-caption {\n\tcolor: #ffffff;\n}\n.navbar-toggler {\n\tcolor: #ffffff;\n}\n.close-icon::before, .close-icon::after {\n\tbackground-color: #ffffff;\n}\n.link, .dropdown-item {\n\tcolor: #ffffff;\n}\n.link {\n\tfont-size: 0.75rem;\n}\n.dropdown-item, .nav-dropdown-sm .link {\n\tfont-size: 0.812rem;\n}\n.link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus {\n\tcolor: #c0a375;\n}\n.link[aria-expanded=\"true\"], .dropdown-menu {\n\tbackground: #000000;\n}\n.nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover {\n\tbackground: #000000!important;\n}\n.navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu {\n\tbackground: #000000;\n}\n.bg-color.transparent .link {\n\tcolor: #ffffff;\n\ttransition: none;\n}\n.bg-color.transparent.opened .link {\n\ttransition: color .2s ease-in-out;\n}\n.bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus {\n\tcolor: #c0a375;\n}\n.link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"] {\n\tcolor: #c0a375!important;\n}\n",
-          "_customTemplate": true
+          "_customTemplate": true,
+          "_anchor": "ext_menu-0"
         },
         {
           "alias": "mobirise3-blocks/components",
@@ -87,26 +87,25 @@
             "Extension"
           ],
           "_name": "extFeatures10",
-          "_anchor": "extFeatures10-e",
           "_params": {
+            "showTitle": true,
+            "showSubtitle": true,
             "iconsColor": "#333333",
             "blocks": "5",
             "paddingTop": 2,
             "paddingBottom": 2,
             "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#e9e9e9",
             "bgImageRadio": false,
             "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extHeader14_bg.jpg",
-            "bgColor": "#e9e9e9",
-            "bgColorRadio": true,
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
             "overlayColor": "#151515",
-            "showTitle": true,
-            "showSubtitle": true
+            "overlayOpacity": 0.5
           },
           "mainTitle": "Get your business online",
           "mainSubtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -256,11 +255,74 @@
               "family": "et-line"
             }
           },
-          "_customHTML": "<section class=\"mbr-section extFeatures10 mbr-after-navbar\" style=\"background-color: #FFF; padding-top: 100px; padding-bottom: 100px;\">\n    <div class=\"elements-content\">\n        \n        <div class=\"container titleBlock\">\n            <div class=\"col-xs-12 text-xs-center\">\n                    <h3 class=\"mbr-section-title display-2 mbr-editable-content\" code-editable-id=\"1001\">Get your business online</h3>\n                    <small class=\"mbr-section-subtitle mbr-editable-content\" code-editable-id=\"1002\">Quickly, cheaply and professionally. Follow the 5 steps below and you will be surprised in wat we can deliver at a business model that suits you!</small>\n            </div>\n        </div>    \n        <div class=\"container timelineHeight\">\n            <ul class=\"timeline\">\n                <li class=\"timeline-normal separline\" style=\"display: block;\">\n                    <span class=\"iconBackground\"><span class=\"icon\">\n  <span class=\"fa-stack fa-1x\">\n                                <i style=\"color:blue;font-style: normal;\" class=\"fa fa-circle fa-stack-2x\"></i>\n                                <i style=\"font-style: normal;\" class=\"fa fa-calculator fa-stack-1x fa-inverse\"></i>\n                            </span>\n                        </span></span>\n                    <div class=\"timeline-panel\">\n                        <h4 class=\"h-black text-right mbr-editable-content\" code-editable-id=\"1003\">1. Quotation</h4>\n                        <p class=\"mbr-section-text-gray lead h-black mbr-editable-content\" code-editable-id=\"1004\">Let us assist you in determining the cost of getting ypour business online. You don't have to speak to us, just complete the form and we will provide you with proposal within hours.</p>\n                    </div>\n                </li>\n\n                <li class=\"timeline-inverted separline\" style=\"display: block;\">\n                    <div class=\"timeline-panel\">\n                        <h4 class=\"h-black mbr-editable-content\" code-editable-id=\"1005\">2. Branding</h4>\n                        <p class=\"mbr-section-text-gray lead h-black mbr-editable-content\" code-editable-id=\"1006\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.</p>\n                    </div>\n                    <span class=\"iconBackgroundInverse\"><span class=\"icon\">\n                          <span class=\"fa-stack fa-1x\">\n                                <i style=\"color:red;font-style: normal;\" class=\"fa fa-circle fa-stack-2x\"></i>\n                                <i style=\"font-style: normal;\" class=\"fa fa-file-image-o fa-stack-1x fa-inverse\"></i>\n                            </span>\n                        \n                    </span></span>\n                </li>\n\n                <li class=\"timeline-normal separline\" style=\"display: block;\">\n                    <span class=\"iconBackground\"><span class=\"icon\">\n                         <span class=\"fa-stack fa-1x\">\n                                <i style=\"color:purple;font-style: normal;\" class=\"fa fa-circle fa-stack-2x\"></i>\n                                <i style=\"font-style: normal;\" class=\"fa fa-chain fa-stack-1x fa-inverse\"></i>\n                            </span>\n                    </span></span>\n                    <div class=\"timeline-panel\">\n                        <h4 class=\"h-black text-right mbr-editable-content\" code-editable-id=\"1007\">3. Domain</h4>\n                        <p class=\"mbr-section-text-gray lead h-black mbr-editable-content\" code-editable-id=\"1008\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.</p>\n                    </div>\n                </li>\n\n                <li class=\"timeline-inverted separline\" style=\"display: block;\">\n                    <div class=\"timeline-panel\">\n                        <h4 class=\"h-black mbr-editable-content\" code-editable-id=\"1009\">4. Content</h4>\n                        <p class=\"mbr-section-text-gray lead h-black mbr-editable-content\" code-editable-id=\"1010\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.</p>\n                    </div>\n                    <span class=\"iconBackgroundInverse\"><span class=\"icon\"> <span class=\"fa-stack fa-1x\">\n                                <i style=\"color:green;font-style: normal;\" class=\"fa fa-circle fa-stack-2x\"></i>\n                                <i style=\"font-style: normal;\" class=\"fa fa-sitemap fa-stack-1x fa-inverse\"></i>\n                            </span></span></span>\n                </li>\n\n                <li class=\"timeline-normal\" style=\"display: block;\">\n                    <span class=\"iconBackground\"><span class=\"icon\">\n                      <span class=\"fa-stack fa-1x\">\n                                <i style=\"color:yellow; font-style: normal;\" class=\"fa fa-circle fa-stack-2x\"></i>\n                                <i style=\"color:black; font-style: normal;\" class=\"fa fa-globe fa-stack-1x fa-inverse\"></i>\n                            </span>\n                        </span></span>\n                    <div class=\"timeline-panel\">\n                        <h4 class=\"h-black text-right mbr-editable-content\" code-editable-id=\"1011\">5. Hosting</h4>\n                        <p class=\"mbr-section-text-gray lead h-black mbr-editable-content\" code-editable-id=\"1012\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.</p>\n                    </div>\n                </li>\n\n                \n\n                \n\n                \n\n                \n\n                \n\n                 \n\n                \n\n            </ul>\n        </div>\n    </div>\n</section>\n                     ",
+          "_customHTML": "<section class=\"mbr-section extFeatures10 mbr-after-navbar\" style=\"background-color: #FFF; padding-top: 100px; padding-bottom: 100px;\">\n    <div class=\"elements-content\">\n        \n        <div class=\"container titleBlock\">\n            <div class=\"col-xs-12 text-xs-center\">\n                    <h3 class=\"mbr-section-title display-2 mbr-editable-content\" code-editable-id=\"2\">Get your business online</h3>\n                    <small class=\"mbr-section-subtitle mbr-editable-content\" code-editable-id=\"3\">Quickly, cheaply and professionally. Follow the 5 steps below and you will be surprised in wat we can deliver and at our business model! We charge R0 yes Zero Rand for putting solution in place and you pay only the hosting cost + small overhead in order for us to keep the lights on. By way of example check out this site. R0 upfront and R100 monthly. We don't even want to put it on paper. We take all the risk, impliment the solution and you pay us monthly for hosting the site and a small profit margin. The only exception is purchasing a domain name but we will assist you in keeping that cost as low as possible, typically under a R100 once a year for a co.za domain) </small>\n            </div>\n        </div>    \n        <div class=\"container timelineHeight\">\n            <ul class=\"timeline\">\n                <li class=\"timeline-normal separline\" style=\"display: block;\">\n                    <span class=\"iconBackground\"><span class=\"icon\">\n  <span class=\"fa-stack fa-1x\">\n                                <i style=\"color:blue;font-style: normal;\" class=\"fa fa-circle fa-stack-2x\"></i>\n                                <i style=\"font-style: normal;\" class=\"fa fa-calculator fa-stack-1x fa-inverse\"></i>\n                            </span>\n                        </span></span>\n                    <div class=\"timeline-panel\">\n                        <h4 class=\"h-black text-right mbr-editable-content\" code-editable-id=\"4\">1. Quotation</h4>\n                        <p class=\"mbr-section-text-gray lead h-black mbr-editable-content\" code-editable-id=\"5\">Let us assist you in determining the cost of getting ypour business online. You don't have to speak to us, just complete the form and we will provide you with proposal within hours.</p>\n                    </div>\n                </li>\n\n                <li class=\"timeline-inverted separline\" style=\"display: block;\">\n                    <div class=\"timeline-panel\">\n                        <h4 class=\"h-black mbr-editable-content\" code-editable-id=\"6\">2. Branding</h4>\n                        <p class=\"mbr-section-text-gray lead h-black mbr-editable-content\" code-editable-id=\"7\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.</p>\n                    </div>\n                    <span class=\"iconBackgroundInverse\"><span class=\"icon\">\n                          <span class=\"fa-stack fa-1x\">\n                                <i style=\"color:red;font-style: normal;\" class=\"fa fa-circle fa-stack-2x\"></i>\n                                <i style=\"font-style: normal;\" class=\"fa fa-file-image-o fa-stack-1x fa-inverse\"></i>\n                            </span>\n                        \n                    </span></span>\n                </li>\n\n                <li class=\"timeline-normal separline\" style=\"display: block;\">\n                    <span class=\"iconBackground\"><span class=\"icon\">\n                         <span class=\"fa-stack fa-1x\">\n                                <i style=\"color:purple;font-style: normal;\" class=\"fa fa-circle fa-stack-2x\"></i>\n                                <i style=\"font-style: normal;\" class=\"fa fa-chain fa-stack-1x fa-inverse\"></i>\n                            </span>\n                    </span></span>\n                    <div class=\"timeline-panel\">\n                        <h4 class=\"h-black text-right mbr-editable-content\" code-editable-id=\"8\">3. Domain</h4>\n                        <p class=\"mbr-section-text-gray lead h-black mbr-editable-content\" code-editable-id=\"9\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.</p>\n                    </div>\n                </li>\n\n                <li class=\"timeline-inverted separline\" style=\"display: block;\">\n                    <div class=\"timeline-panel\">\n                        <h4 class=\"h-black mbr-editable-content\" code-editable-id=\"10\">4. Content</h4>\n                        <p class=\"mbr-section-text-gray lead h-black mbr-editable-content\" code-editable-id=\"11\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.</p>\n                    </div>\n                    <span class=\"iconBackgroundInverse\"><span class=\"icon\"> <span class=\"fa-stack fa-1x\">\n                                <i style=\"color:green;font-style: normal;\" class=\"fa fa-circle fa-stack-2x\"></i>\n                                <i style=\"font-style: normal;\" class=\"fa fa-sitemap fa-stack-1x fa-inverse\"></i>\n                            </span></span></span>\n                </li>\n\n                <li class=\"timeline-normal\" style=\"display: block;\">\n                    <span class=\"iconBackground\"><span class=\"icon\">\n                      <span class=\"fa-stack fa-1x\">\n                                <i style=\"color:yellow; font-style: normal;\" class=\"fa fa-circle fa-stack-2x\"></i>\n                                <i style=\"color:black; font-style: normal;\" class=\"fa fa-globe fa-stack-1x fa-inverse\"></i>\n                            </span>\n                        </span></span>\n                    <div class=\"timeline-panel\">\n                        <h4 class=\"h-black text-right mbr-editable-content\" code-editable-id=\"12\">5. Hosting</h4>\n                        <p class=\"mbr-section-text-gray lead h-black mbr-editable-content\" code-editable-id=\"13\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.</p>\n                    </div>\n                </li>\n\n                \n\n                \n\n                \n\n                \n\n                \n\n                 \n\n                \n\n            </ul>\n        </div>\n    </div>\n</section>\n                     ",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_customCSS": ".etl-icon {\n\tcolor: #333333;\n}\n.separline::before\n{\n   background-color: #000; \n}",
-          "_customTemplate": true
+          "_customTemplate": true,
+          "_styles": {
+            ".etl-icon": {
+              "color": "#333333"
+            }
+          },
+          "_anchor": "extFeatures10-e"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          },
+          "_anchor": "form1-i",
+          "_params": {
+            "labelsColor": "#232323",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubTitle": true
+          },
+          "title": "CONTACT FORM",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
+          "form": {
+            "action": "rossouw.daniel@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>"
         }
       ]
     }
